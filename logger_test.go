@@ -5,7 +5,7 @@ import (
 )
 
 func TestLoggerPrint(t *testing.T){
-	err := Init(true, "" ,5)
+	err := Init(true, "./ok.log" ,5)
 	if err != nil {
 		t.Fatal(err)
 	}

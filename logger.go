@@ -1,6 +1,7 @@
 package logger
 
 import (
+	"errors"
 	"github.com/clareyy/logger/core"
 	"github.com/clareyy/logger/file"
 )
@@ -19,7 +20,7 @@ func Init(isStdOut bool, filePath string, level uint32) error {
 
 	outPutStd = isStdOut
 	if filePath == "" {
-		return nil
+		return errors.New("filePath is empty")
 	}
 
 	defaultLogger = core.New(false)
