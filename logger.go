@@ -2,8 +2,8 @@ package logger
 
 import (
 	"errors"
-	"github.com/clareyy/logger/core"
-	"github.com/clareyy/logger/file"
+	"github.com/Allenyn/logger/core"
+	"github.com/Allenyn/logger/file"
 )
 
 var (

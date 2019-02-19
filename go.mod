@@ -1,4 +1,4 @@
-module github.com/clareyy/logger
+module github.com/Allenyn/logger
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
